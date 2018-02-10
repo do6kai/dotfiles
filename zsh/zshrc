@@ -3,8 +3,8 @@ fpath+=~/.zfunc
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/do6kai/.oh-my-zsh
 
-# the brew binary lies here
-# export PATH=$PATH:/usr/local/bin
+# for homebrew
+export PATH=/usr/local/bin:$PATH
 
 # for the agnoster theme
 export DEFAULT_USER='do6kai'

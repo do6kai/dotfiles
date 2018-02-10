@@ -24,7 +24,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Yggdroot/indentline'
 Plug 'valloric/matchtagalways', { 'for': 'html' }
-Plug 'elmar-hinz/vim.typoscript'
 
 " Misc
 Plug 'sheerun/vim-polyglot'
@@ -36,7 +35,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'scrooloose/nerdcommenter'
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 Plug 'zchee/deoplete-clang'
-Plug 'sebastianmarkow/deoplete-rust'
 Plug 'Shougo/neoinclude.vim'
 Plug 'zchee/deoplete-jedi'
 Plug 'Shougo/neosnippet'
@@ -54,8 +52,8 @@ Plug 'junegunn/gv.vim'
 
 Plug 'matze/vim-move'
 " Move line(s):
-" <A-k>   Move current line/selection up
-" <A-j>   Move current line/selection down
+" <C-k>   Move current line/selection up
+" <C-j>   Move current line/selection down
 " let g:move_key_modifier = 'C'
 
 Plug 'tpope/vim-surround'
@@ -89,11 +87,9 @@ set termguicolors
 let g:gruvbox_italic=1
 colorscheme gruvbox
 
-set cursorline
 set colorcolumn=81
 
 set number
-set relativenumber
 
 set showmatch
 
@@ -219,7 +215,3 @@ endfunction
 autocmd! FileType markdown call s:initMdownCommands()
 " END: mdown.vim ----------------------------------------------------------- }}}
 
-" Deoplete: Rust  ---------------------------------------------------------- {{{
-let g:deoplete#sources#rust#racer_binary='/Users/merdog/.cargo/bin/racer'
-let g:deoplete#sources#rust#rust_source_path='/Users/merdog/Sources/rust/src'
-" END: Deoplete: Rust ------------------------------------------------------ }}}
