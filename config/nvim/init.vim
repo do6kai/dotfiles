@@ -28,6 +28,7 @@ Plug 'valloric/matchtagalways', { 'for': 'html' }
 " Misc
 Plug 'sheerun/vim-polyglot'
 Plug 'mhinz/vim-startify'
+Plug 'jceb/vim-orgmode'
 
 " Usability/Editing
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }

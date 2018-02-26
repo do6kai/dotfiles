@@ -28,3 +28,5 @@ export EDITOR='nvim'
 alias l='ls -lh'
 alias ll='ls -lha'
 alias e='$EDITOR'
+
+fortune | cowsay
