@@ -1,7 +1,7 @@
 fpath+=~/.zfunc
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/do6kai/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # for homebrew
 export PATH=/usr/local/bin:$PATH
